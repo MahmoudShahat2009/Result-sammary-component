@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    /* align-content: center; */
+    margin-top: 70px;
+}
+.parent{
+    border: 1px solid rgb(161, 161, 161);
+    width: 700px;
+    height: 450px;
+    border-radius: 20px;
+    display: flex;
+}
+.parent .child{
+    background-color: #5A3EF9;
+    width: 50%;
+    height: 100%;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+h1{
+    font-size: 50px;
+}
+span{
+    color: gray;
+}
+
+.foot{
+    width: 80%;
+}
+
+.foot > p{
+    font-size: 14px;
+    color: rgb(203, 197, 197);
+}
+.circle{
+    padding: 50px;
+    /* border: 1px solid red; */
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    background-color: #4A25CF;
+}
+
+.parent .result{
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: stretch;
+    /* align-items: center; */
+    flex-direction: column;
+}
+.result > h2{
+    margin-bottom: 20px;
+    display: flex;
+    justify-self: start;
+    color: rgb(91, 89, 89);
+}
+
+.Reaction{
+    display: flex;
+    justify-content: space-around ;
+    width: 100%;
+    padding: 10px;  
+    border: 1px solid #e5e5e9;
+    border-radius: 10px;
+    margin: 10px 0;
+    /* background-color: rgb(237, 213, 213); */
+}
+.Reaction p {
+    padding: 0 10px;
+    font-weight: 400;
+}
+.red{
+    background-color: rgb(250, 199, 199);
+}
+.red  p{
+    color: red;
+}
+.yellow{
+    background-color: rgb(244, 244, 198);
+}
+.yellow  p{
+    color: rgb(214, 214, 0);
+}
+.green{
+    background-color: rgb(199, 250, 199);
+}
+.green p{
+    color: rgb(0, 167, 0);
+}
+.blue{
+    background-color: rgb(184, 184, 255);
+}
+.blue p{
+    color: #5A3EF9;
+}
+.icon{
+    width: 70%;
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    align-items: center;
+    color: rgb(237, 101, 101);
+}
+.action{
+    text-align: center;
+}
+
+.btn{
+ padding: 10px;
+ width: 100%;
+ margin: 20px 0;
+ border-radius: 25px;
+ background-color: #5A3EF9;
+ color: white;
+ border: 1px solid #5A3EF9;
+}
+.para{
+    margin: 0;
+}
